@@ -3,7 +3,7 @@ module go.lumeweb.com/portal-plugin-core
 go 1.24.3
 
 require (
-	go.lumeweb.com/portal v0.4.2-0.20250715231151-83bb43120dd2
+	go.lumeweb.com/portal v0.4.2-0.20250716115516-315a9f33ba90
 	go.lumeweb.com/web/go/portal-plugin-core v0.0.0-20250716054527-5cd371ec5f8f
 )
 
@@ -40,7 +40,6 @@ require (
 	github.com/getkin/kin-openapi v0.132.0 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-co-op/gocron/v2 v2.16.2 // indirect
-	github.com/go-gorm/caches/v4 v4.0.5 // indirect
 	github.com/go-openapi/jsonpointer v0.21.1 // indirect
 	github.com/go-openapi/swag v0.23.1 // indirect
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
@@ -70,7 +69,6 @@ require (
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-sqlite3 v1.14.28 // indirect
 	github.com/mfridman/interpolate v0.0.2 // indirect
 	github.com/minio/sha256-simd v1.0.1 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
@@ -113,7 +111,7 @@ require (
 	go.lumeweb.com/portal-middleware v0.2.9 // indirect
 	go.lumeweb.com/portal-router v0.6.1 // indirect
 	go.lumeweb.com/queryutil v0.3.12 // indirect
-	go.sia.tech/core v0.14.2 // indirect
+	go.sia.tech/core v0.14.1 // indirect
 	go.sia.tech/coreutils v0.16.5 // indirect
 	go.sia.tech/jape v0.14.0 // indirect
 	go.sia.tech/mux v1.4.0 // indirect
@@ -135,7 +133,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/datatypes v1.2.6 // indirect
 	gorm.io/driver/mysql v1.6.0 // indirect
-	gorm.io/driver/sqlite v1.6.0 // indirect
 	gorm.io/gorm v1.30.0 // indirect
 	lukechampine.com/blake3 v1.4.1 // indirect
 	lukechampine.com/frand v1.5.1 // indirect
