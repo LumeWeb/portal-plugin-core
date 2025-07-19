@@ -4,7 +4,7 @@ go 1.24.3
 
 require (
 	go.lumeweb.com/portal v0.4.2-0.20250716115516-315a9f33ba90
-	go.lumeweb.com/web/go/portal-plugin-core v0.0.0-20250716054527-5cd371ec5f8f
+	go.lumeweb.com/web/go/portal-plugin-core v0.0.0-20250719063115-6884ba9e39fb
 )
 
 require (
