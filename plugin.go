@@ -10,10 +10,15 @@ import (
 
 // init registers the plugin with the Portal framework
 // This is called automatically when the plugin is loaded
-func init() {
-	core.RegisterPlugin(core.PluginInfo{
+
+func GetPluginInfo() core.PluginInfo {
+	return core.PluginInfo{
 		ID:         internal.PLUGIN_NAME,
 		Version:    build.GetInfo(),
 		WebBundles: core.NewWebBundles(core.NewWebBundle(portal_plugin_core.GetFS())),
-	})
+	}
+}
+
+func init() {
+	core.RegisterPlugin(GetPluginInfo())
 }
