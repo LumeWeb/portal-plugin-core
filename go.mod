@@ -1,4 +1,4 @@
-module go.lumeweb.com/portal-plugin-core
+module go.lumeweb.com/portal-plugin-core // v0.0.0
 
 go 1.24.3
 
